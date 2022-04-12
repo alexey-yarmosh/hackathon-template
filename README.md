@@ -16,8 +16,3 @@ git-secret reveal
 ### Links
 Github tokes:
 https://github.com/settings/developers
-
-### TODO:
-- add styling library
-- try with sql db
-- how to persist mongodb data

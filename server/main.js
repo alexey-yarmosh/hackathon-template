@@ -3,7 +3,8 @@ import { Accounts } from 'meteor/accounts-base';
 import { ServiceConfiguration } from 'meteor/service-configuration';
 
 import '/imports/db/todos';
-import '/imports/api/todos-methods'
+import '/imports/api/todos-methods';
+import '/imports/api/users-methods';
 import '/imports/api/todos-publications';
 
 const USER_USERNAME = 'baderfall';

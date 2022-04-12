@@ -3,17 +3,50 @@ body {
   font-family: sans-serif;
 }
 
-.github-btn {
-  border: 1px solid #e1e5f0;
-  background-color: #fff;
-  width: 245px;
-  margin: 0 auto 16px;
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.react-target, .ant-layout {
+  height: 100%;
 }
 
-.github-btn > div {
-  margin-left: 4px;
+.logo {
+  color: #fff;
+}
+
+.content {
+  padding: 24px;
+  margin: 0;
+  min-height: 280px;
+}
+
+.layout-wrapper {
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.auth__title {
+  text-align: center;
+}
+
+.github-login.ant-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 165px;
+  color: #fff;
+  background: #000;
+}
+
+.todo-input {
+  margin-bottom: 20px;
+}
+
+.todos-list {
+  background: #fff;
+}
+
+.todos-list .ant-list-items .ant-list-item {
+  padding-right: 12px;
+}
+
+.logout {
+  color: #fff;
 }

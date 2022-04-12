@@ -8,7 +8,9 @@
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
     "@babel/runtime": "^7.15.4",
+    "antd": "^4.19.5",
     "bcrypt": "^5.0.1",
     "meteor-node-stubs": "^1.2.1",
     "react": "^17.0.2",
@@ -26,7 +28,6 @@
   "directories": {
     "test": "tests"
   },
-  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
