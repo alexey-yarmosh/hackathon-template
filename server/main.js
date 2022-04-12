@@ -23,8 +23,8 @@ ServiceConfiguration.configurations.upsert(
   {
     $set: {
       loginStyle: 'popup',
-      clientId: 'd918343d3f9de63fe411', // insert your clientId here
-      secret: 'e80cfce53116ee69e63347f532c7e7017f831a22', // insert your secret here
+      clientId: Meteor.settings.github.clientId,
+      secret: Meteor.settings.github.secret
     },
   }
 );
